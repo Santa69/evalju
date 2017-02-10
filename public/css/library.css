@@ -1,0 +1,107 @@
+            body {
+                margin: 0;
+                padding: 0;
+                background: url(/img/background/background1.jpg) no-repeat center fixed;
+                -webkit-background-size: cover;
+                /* pour anciens Chrome et Safari */
+                background-size: cover;
+                /* version standardisée */
+            }
+
+            #list {
+                background-color: rgba(0, 0, 0, .5);
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                align-items: center;
+                margin: 2%;
+                -moz-box-shadow: 8px 8px 8px 0px #656565;
+                -webkit-box-shadow: 8px 8px 8px 0px #656565;
+                -o-box-shadow: 8px 8px 8px 0px #656565;
+                box-shadow: 8px 8px 8px 0px #656565;
+                filter: progid:DXImageTransform.Microsoft.Shadow(color=#656565, Direction=134, Strength=8);
+            }
+
+            #list h3 {
+                color: white;
+                font-weight: bold;
+                text-align: center;
+            }
+
+            #list h3:hover {
+                border-bottom: 1px solid black;
+            }
+
+            #list img {
+                width: 15em;
+                height: auto;
+            }
+
+            #list p {
+                text-align: justify;
+                color: white;
+            }
+
+            table {
+                border-collapse: collapse;
+                width: 100%;
+            }
+
+            th, td {
+                padding: 12px;
+            }
+
+            table, td, th {
+                background-color: goldenrod;
+                border: 1px solid #ddd;
+                text-align: left;
+            }
+
+            th {
+                text-align: center;
+                background-color: rgba(211, 211, 211, 0.68);
+            }
+
+            td {
+                color: white;
+                font-weight: bold;
+            }
+
+            #product {
+                background: rgba(105, 105, 105, 0.75);
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                align-items: center;
+                font-weight: bold;
+                -moz-box-shadow: 8px 8px 8px 0px #656565;
+                -webkit-box-shadow: 8px 8px 8px 0px #656565;
+                -o-box-shadow: 8px 8px 8px 0px #656565;
+                box-shadow: 8px 8px 8px 0px #656565;
+                filter: progid:DXImageTransform.Microsoft.Shadow(color=#656565, Direction=134, Strength=8);
+            }
+
+            #create {
+                background: rgba(105, 105, 105, 0.75);
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                align-items: center;
+                color: white;
+                font-weight: bold;
+                -moz-box-shadow: 8px 8px 8px 0px #656565;
+                -webkit-box-shadow: 8px 8px 8px 0px #656565;
+                -o-box-shadow: 8px 8px 8px 0px #656565;
+                box-shadow: 8px 8px 8px 0px #656565;
+                filter: progid:DXImageTransform.Microsoft.Shadow(color=#656565, Direction=134, Strength=8);
+            }
+
+            input#name, input#genre, input#note, textarea#description {
+                color: black;
+            }
+
+            #create {
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-start;
+            }

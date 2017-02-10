@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url(/img/background/background1.jpg) no-repeat center fixed;
+    -webkit-background-size: cover;
+    /* pour anciens Chrome et Safari */
+    background-size: cover;
+    /* version standardisée */
+}
+
+.content {
+    background: rgba(0, 0, 0, .5);
+    /*display: flex;
+    flex-direction: row;
+    flex-direction: column;*/
+    margin-bottom: 2%;
+    padding: 4%;
+    border-radius: 5px;
+    -moz-box-shadow: 8px 8px 8px 0px #656565;
+    -webkit-box-shadow: 8px 8px 8px 0px #656565;
+    -o-box-shadow: 8px 8px 8px 0px #656565;
+    box-shadow: 8px 8px 8px 0px #656565;
+    filter: progid:DXImageTransform.Microsoft.Shadow(color=#656565, Direction=134, Strength=8);
+}
+
+.name, .firstname {
+    color: grey;
+}
+
+.firstname span {
+    font-weight: bold;
+    color: black;
+}
+
+.name span {
+    font-weight: bold;
+    color: black;
+}
+
+.sended {
+    color: grey;
+    float: right;
+}
+
+div.message {
+    background-color: hsla(0, 0%, 100%, .15);
+    color: black;
+    padding: 2%;
+    border-radius: 5px;
+    -moz-box-shadow: 8px 8px 10px 0px #000000;
+    -webkit-box-shadow: 8px 8px 10px 0px #000000;
+    -o-box-shadow: 8px 8px 10px 0px #000000;
+    box-shadow: 8px 8px 10px 0px #000000;
+    filter: progid:DXImageTransform.Microsoft.Shadow(color=#000000, Direction=134, Strength=10);
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
